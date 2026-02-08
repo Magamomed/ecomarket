@@ -73,9 +73,7 @@ body::before {
   box-shadow: 0 8px 20px rgba(22, 35, 20, 0.16);
 }
 
-.about h1,
-.links h2,
-.feature h3 {
+.about h1 {
   margin: 0;
   font-family: "Prata", Georgia, serif;
   line-height: 1.15;
@@ -96,12 +94,6 @@ body::before {
 .links {
   padding: 20px 14px 8px;
   animation-delay: 1.2s;
-}
-
-.links h2 {
-  text-align: center;
-  font-size: clamp(1.9rem, 5vw, 2.4rem);
-  margin-bottom: 14px;
 }
 
 .action-btn {
@@ -155,44 +147,12 @@ body::before {
   height: 22px;
 }
 
-.feature {
-  text-align: center;
-  padding: 20px 20px 24px;
-  animation-delay: 1.45s;
-}
-
-.feature-icon {
-  width: 70px;
-  height: 70px;
-  margin: 0 auto 12px;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  font-size: 1.8rem;
-  color: #ffffff;
-  background: radial-gradient(circle at 30% 30%, #2a2f2d, #0f1211);
-  box-shadow: 0 12px 20px rgba(13, 17, 15, 0.34);
-}
-
-.feature h3 {
-  font-size: clamp(1.7rem, 5vw, 2.2rem);
-  margin-bottom: 8px;
-}
-
-.feature p {
-  margin: 0;
-  font-size: clamp(1rem, 2.7vw, 1.1rem);
-  line-height: 1.58;
-  color: var(--text-muted);
-}
-
 @media (max-width: 420px) {
   body {
     padding: 14px 8px;
   }
 
-  .about,
-  .feature {
+  .about {
     padding-left: 16px;
     padding-right: 16px;
   }
